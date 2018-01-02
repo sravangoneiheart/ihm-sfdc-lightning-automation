@@ -1,0 +1,5 @@
+BROADCAST:
+    START_DATE_1: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+
+BROADCAST2:
+    END_DATE_1: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>

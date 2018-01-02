@@ -1,0 +1,8 @@
+page classes added
+    Salesforce Individual Billing address page
+
+page data class
+    Salesforce Individual Billing address page Data
+
+Yml:
+     Salesforce Individual Billing address page Data

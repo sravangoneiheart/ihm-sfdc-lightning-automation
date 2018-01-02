@@ -1,0 +1,20 @@
+SALESFORCE_DEV_TTN_USER:  "https://ihm--sfdevsb03.cs28.my.salesforce.com/005E0000004891J?noredirect=1&isUserEntityOverride=1"
+BMS_DEV_TTN_USER: "qametro23"
+
+SALESFORCE_DEV: "https://ihm--sfdevsb03.cs28.my.salesforce.com/"
+
+
+BMS_DEV: "qametro23"
+
+#SALESFORCE_QA: "https://ihm--crmuat.cs95.my.salesforce.com/home/home.jsp"
+#SALESFORCE_QA: "https://ihm--qasf08.cs3.my.salesforce.com/home/home.jsp"
+SALESFORCE_QA:  "https://ihm--lightngqa.cs13.my.salesforce.com/home/home.jsp"
+#SALESFORCE_QA: "https://ihm--qasf10.cs66.my.salesforce.com/"
+#SALESFORCE_QA: "https://ihm--iHMint.cs52.my.salesforce.com"
+#SALESFORCE_QA: "https://ihm--crmuat.cs53.my.salesforce.com/a1z/e?CF00NE0000005UEpz=Advertiser-Automation+Test-CharNC-3367642&CF00NE0000005UEpz_lkid=0060j000008z4ZL&retURL=%2F0060j000008z4ZL"
+#SALESFORCE_QA: "https://ihm--qasf01.cs66.my.salesforce.com/"
+#SALESFORCE_QA: "https://ihm--qasf07.cs66.my.salesforce.com/home/home.jsp"
+
+#SALESFORCE_QA: "https://ihm--iHMint.cs52.my.salesforce.com"
+BMS_QA_ORDER_ID: "http://qametro23/salesorders/SalesForceUpload"
+#SALESFORCE_QA: "https://ihm--devmo1c.cs66.my.salesforce.com/home/home.jsp"

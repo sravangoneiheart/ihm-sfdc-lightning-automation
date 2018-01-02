@@ -1,0 +1,4 @@
+default: --format pretty -f rerun --out rerun.txt
+run: --format pretty --tags @run
+regression: --format pretty --tags @regression
+

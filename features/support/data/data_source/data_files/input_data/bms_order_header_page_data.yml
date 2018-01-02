@@ -1,0 +1,11 @@
+BASIC_NEW_ORDER_INFO:
+  CLASSIFICATION: "National"
+  FLIGHT_DATE_START: <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+  FLIGHT_DATE_END: <%= Time.next(:friday, Time.warp(:days => 35)).strftime("%m/%d/%Y") %>
+  GRP_TYPE: "National"
+  GEOGRAPHIC: "DMA"
+  TOTAL_GRP: "2"
+  DEMO: "RA12+"
+  GUARANTEE_PERIOD: "Flight"
+  EXPECTED_VALUE: "10000
+

@@ -1,0 +1,12 @@
+PRIMARY_BILLING_EXP:
+  BILLING_ADDRESS_NAME: '<%= $captured_results["billing_name"] %>'
+  BILLING_ADDRESS_ACCOUNT:  '<%= $captured_results["account_name"] %>'
+  BILLING_ADDRESS_1: '21302 Encino Cmns'
+  BILLING_ADDRESS_2: 'Suite 500'
+  BILLING_ADDRESS_CITY: 'San Antonio'
+  BILLING_ADDRESS_STATE: 'Texas'
+  BILLING_ADDRESS_ZIP: '78259'
+  BILLING_ADDRESS_COUNTRY: 'United States'
+
+
+

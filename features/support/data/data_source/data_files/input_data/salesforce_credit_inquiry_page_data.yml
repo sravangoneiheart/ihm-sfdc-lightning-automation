@@ -1,0 +1,40 @@
+CREDIT_INQUIRY_DATA:
+  REVENUE_PATH: "Agency"
+  CREDIT_TYPE: "Letter of Guarantee"
+  PROJECT_STARTDATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+  REQUESTED_LIMIT:  "20000"
+  REQUESTED_TERMS: "Net 30"
+
+CREDIT_INQUIRY_DATA_AGENCY:
+  REVENUE_PATH: "Direct"
+  CREDIT_TYPE: "Credit"
+  PROJECT_STARTDATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+  REQUESTED_LIMIT:  "20"
+  REQUESTED_TERMS: "Net 45"
+
+CREDIT_INQUIRY_DATA_DIRECT:
+  REVENUE_PATH: "Direct"
+  CREDIT_TYPE: "Letter of Guarantee"
+  PROJECT_STARTDATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+  REQUESTED_LIMIT:  "20000"
+  REQUESTED_TERMS: "Net 30"
+
+CREDIT_INQUIRY_DATA_AGENCY_2:
+  REVENUE_PATH: "Agency"
+  CREDIT_TYPE: "Credit"
+  PROJECT_STARTDATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+  REQUESTED_LIMIT:  "20"
+  REQUESTED_TERMS: "Net 30"
+
+CREDIT_INQUIRY_DATA_2:
+  REVENUE_PATH: "Direct"
+  CREDIT_TYPE: "Credit"
+  PROJECT_STARTDATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+  REQUESTED_LIMIT:  "20"
+  REQUESTED_TERMS: "Net 30"
+  CONTACT_FIRST_NAME: "iheart"
+  CONTACT_LAST_NAME: "Media"
+  CONTACT_TITLE: "Media Credit enquiry"
+  CONTACT_EMAIL: "sravangone@yahoo.com"
+  CONTACT_PHONE: "2222222222"
+

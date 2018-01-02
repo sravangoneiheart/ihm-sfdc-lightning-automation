@@ -1,0 +1,312 @@
+NEW_ACCOUNT_INFORMATION:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d %H:%M:%S").inspect.gsub(/(\D)/,"")+"_R"%>
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656"
+  #STATUS: "Active"
+
+NEW_AGENCY_INFORMATION:
+  ACCOUNT_NAME: <%= "Agency" + Time.now.strftime("%m/%d/%Y %H:%M:%S").inspect.gsub(/(\D)/,"")+"_R"%>
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656"
+
+NEW_CREDIT_INFORMATION:
+  REVENUE_PATH: "Direct"
+  CREDIT_TYPE: "Credit"
+  PROJECTED_START: "12/30/2016"
+  REQUESTED_LIMIT: "30000"
+  REQUESTOR_TERMS: "Net 30"
+
+BILLING_INFORMATION:
+  ELECTRONIC_INVOICE: "uncheck"
+  EMAIL_INVOICE: "uncheck"
+  PAPER INVOICE: "uncheck"
+  TAX_EXEMPT: "uncheck"
+  SUPRESS_MISC_REV_RATE: "uncheck"
+  SUPRESS_SPOT_RATE: "uncheck"
+  NOTARIZE_INVOICE: "uncheck"
+  COMBINE_SPOT_NON_SPOT: "check"
+
+NEW_NETSUITE_ACCOUNT_INFORMATION:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d %H:%M:%S").inspect.gsub(/(\D)/,"")+"_R"%>
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656"
+  PAPER_INVOICE: "check"
+
+
+    #STATUS: "Active"
+ADDRESS_INFORMATION:
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656"
+
+NEW_ACCOUNT_INFORMATION_ADV_1_INJECTION:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+'db'+"_R"%>
+  INDUSTRY: "Agriculture & Farming"
+  SUB_INDUSTRY: "Farm/Equip/Feed"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "21302 Encino Cmns"
+  LEGAL_CITY: "San Antonio "
+  LEGAL_STATE_PROVINCE: "Texas"
+  LEGAL_ZIP_POSTAL_CODE: "78259-2719 "
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: ''
+  PHONE: ''
+  EDI_PARTNER: ''
+  NOTARIZE_INVOICE: 'Uncheck'
+  INVOICE_COPIES: '0'
+  INVOICE_SPECIAL_REQUEST: ''
+
+NEW_ACCOUNT_INFORMATION_ADV_1_DUP_INJECTION:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+'1dbdu'%>
+  INDUSTRY: "Agriculture & Farming"
+  SUB_INDUSTRY: "Farm/Equip/Feed"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "21302 Encino Cmns"
+  LEGAL_CITY: "San Antonio "
+  LEGAL_STATE_PROVINCE: "Texas"
+  LEGAL_ZIP_POSTAL_CODE: "78259-2719 "
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: ''
+  PHONE: ''
+  EDI_PARTNER: ''
+  NOTARIZE_INVOICE: 'Uncheck'
+  INVOICE_COPIES: '0'
+  INVOICE_SPECIAL_REQUEST: ''
+
+NEW_ACCOUNT_INFORMATION_ADV_2_INJECTION:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+ 'db'+"_R"%>
+  INDUSTRY: "Auto/Recreational Vehicles & Service"
+  SUB_INDUSTRY: "Auto Parts"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656-5327"
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: '7878787878'
+  PHONE: '5556667890'
+  EDI_PARTNER: 'Katz Media Group'
+  NOTARIZE_INVOICE: 'Check'
+  INVOICE_COPIES: '3'
+  INVOICE_SPECIAL_REQUEST: 'CM Band'
+
+NEW_ACCOUNT_INFORMATION_ADV_2_DUP_INJECTION:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+ '1dbdu'%>
+  INDUSTRY: "Auto/Recreational Vehicles & Service"
+  SUB_INDUSTRY: "Auto Parts"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656-5327"
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: '7878787878'
+  PHONE: '5556667890'
+  EDI_PARTNER: 'Katz Media Group'
+  NOTARIZE_INVOICE: 'Check'
+  INVOICE_COPIES: '3'
+  INVOICE_SPECIAL_REQUEST: 'CM Band'
+
+NEW_ACCOUNT_INFORMATION_ADV_1_INJECTION_ADMIN:
+  CREDIT_LIMIT: '0'
+  CREDIT_TYPE: 'Cash in Advance'
+  CREDIT_STATUS: ''
+  CREDIT_APPROVED: 'Uncheck'
+  MASTER_CODE: ''
+  BUYER_ID: '12345'
+
+NEW_ACCOUNT_INFORMATION_ADV_2_INJECTION_ADMIN:
+  CREDIT_LIMIT: '50000'
+  CREDIT_TERMS: 'Net 15'
+  CREDIT_TYPE: 'Credit'
+  CREDIT_STATUS: 'Completed'
+  CREDIT_APPROVED: 'check'
+  MASTER_CODE: 'M-123987'
+  BUYER_ID: '12345'
+
+NEW_ACCOUNT_INFORMATION_AGC_1_INJECTION:
+  ACCOUNT_NAME: <%= "Agency" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+'db'+"_R"%>
+#  INDUSTRY: "Agriculture & Farming"
+#  SUB_INDUSTRY: "Farm/Equip/Feed"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "21302 Encino Cmns"
+  LEGAL_CITY: "San Antonio "
+  LEGAL_STATE_PROVINCE: "Texas"
+  LEGAL_ZIP_POSTAL_CODE: "78259-2719 "
+  #STATUS: "Active"
+#  TTWN_ADVERTISER_SEPARATION: '10'
+#  ADVERTISER_CATEGORY_SEPARATION: '10'
+  EDI_PARTNER: ''
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: ''
+  PHONE: ''
+  NOTARIZE_INVOICE: 'Uncheck'
+  INVOICE_COPIES: '0'
+  INVOICE_SPECIAL_REQUEST: ''
+
+NEW_ACCOUNT_INFORMATION_AGC_1_DUP_INJECTION:
+  ACCOUNT_NAME: <%= "Agency" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+'1dbdu'%>
+#  INDUSTRY: "Agriculture & Farming"
+#  SUB_INDUSTRY: "Farm/Equip/Feed"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "21302 Encino Cmns"
+  LEGAL_CITY: "San Antonio "
+  LEGAL_STATE_PROVINCE: "Texas"
+  LEGAL_ZIP_POSTAL_CODE: "78259-2719 "
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  EDI_PARTNER: ''
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: ''
+  PHONE: ''
+  NOTARIZE_INVOICE: 'Uncheck'
+  INVOICE_COPIES: '0'
+  INVOICE_SPECIAL_REQUEST: ''
+
+NEW_ACCOUNT_INFORMATION_AGC_2_INJECTION:
+  ACCOUNT_NAME: <%= "Agency" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+ 'db'+"_R"%>
+#  INDUSTRY: "Auto/Recreational Vehicles & Service"
+#  SUB_INDUSTRY: "Auto Parts"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656-5327"
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: '7878787878'
+  PHONE: '5556667890'
+  EDI_PARTNER: 'Katz Media Group'
+  NOTARIZE_INVOICE: 'Check'
+  INVOICE_COPIES: '3'
+  INVOICE_SPECIAL_REQUEST: 'CM Band'
+
+NEW_ACCOUNT_INFORMATION_AGC_2_DUP_INJECTION:
+  ACCOUNT_NAME: <%= "Agency" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+ '1dbdu'%>
+#  INDUSTRY: "Auto/Recreational Vehicles & Service"
+#  SUB_INDUSTRY: "Auto Parts"
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656-5327"
+#  STATUS: "Active"
+#  TTWN_ADVERTISER_SEPARATION: '10'
+#  ADVERTISER_CATEGORY_SEPARATION: '10'
+  EDI_PARTNER: ''
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: '7878787878'
+  PHONE: '5556667890'
+  EDI_PARTNER: 'Katz Media Group'
+  NOTARIZE_INVOICE: 'Check'
+  INVOICE_COPIES: '3'
+  INVOICE_SPECIAL_REQUEST: 'CM Band'
+
+NEW_ACCOUNT_ADVERTISER_FIELD_UPDATE_DATA:
+  ACCOUNT_NAME: <%= "Advertiser" + Time.now.strftime("%Y/%m/%d%H%M%S").inspect.gsub(/(\D)/,"")+"_R"%>
+  LEGAL_NAME: 'Legal Name'
+  INDUSTRY: "Auto/Recreational Vehicles & Service"
+  SUB_INDUSTRY: "Auto Parts"
+  #Subbu 08/15/16 - Added new fields
+  LEGAL_STREET: "27071 Aliso Creek Rd"
+  LEGAL_CITY: "Aliso Viejo"
+  LEGAL_STATE_PROVINCE: "California"
+  LEGAL_ZIP_POSTAL_CODE: "92656-5327"
+  #STATUS: "Active"
+  TTWN_ADVERTISER_SEPARATION: '10'
+  ADVERTISER_CATEGORY_SEPARATION: '10'
+  SUPPORTS_HD: 'Uncheck'
+  ALLOW_INVOICE_BUFFER: 'Uncheck'
+  ALLOW_INVOICE_ESTIMATES: 'Uncheck'
+  FAX: '7878787878'
+  PHONE: '5556667890'
+  EDI_PARTNER: 'radioinvoices.com'
+  NOTARIZE_INVOICE: 'Check'
+  INVOICE_COPIES: '3'
+  INVOICE_SPECIAL_REQUEST: 'CM Band'
+
+
+NEW_ACCOUNT_ADVERTISER_FIELD_UPDATE_DATA_ADMIN:
+  CREDIT_STATUS: ''
+  CREDIT_APPROVED: 'Uncheck'
+  BUYER_ID: '12345'
+  STATE_TAX_ID: 'TAX12345'
+  CO_OP_TYPE: 'check'
+  CREDIT_LIMIT: '10000'
+  CREDIT_TERMS: 'Net 15'
+  CREDIT_TYPE: 'Credit'
+  DISCOUNT: '15'
+  DUNS: 'DUN12345'
+  EDI_ACCOUNT_ID: 'EDI12345'
+ # EMAIL_INVOICE: 'check'
+  MASTER_CODE: 'MAS12345'
+  OPERATIVE_ID: 'OP12345'
+  PAPER_INVOICE: 'check'
+  PARENT_DUNS: 'PDUN12345'
+  SUPPRESS_MISC_REV_RATE: 'check'
+  SUPPRESS_SPOT_RATE: 'check'
+  TAX_EXEMPT: 'check'
+  WEBSITE: 'www.iheartemedia.com'
+  AGENCY_COMM: '15'
+  EDI_IDB: 'EDI12345'
+  EDI: 'check'
+  IMPRESSIONS: 'check'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

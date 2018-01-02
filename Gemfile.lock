@@ -1,0 +1,94 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (4.2.7)
+      activesupport (= 4.2.7)
+      builder (~> 3.1)
+    activerecord (4.2.7)
+      activemodel (= 4.2.7)
+      activesupport (= 4.2.7)
+      arel (~> 6.0)
+    activerecord-sqlserver-adapter (4.2.15)
+      activerecord (~> 4.2.1)
+    activesupport (4.2.7)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    arel (6.0.3)
+    builder (3.2.2)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    cucumber (2.4.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.5.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 4.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    cucumber-wire (0.0.1)
+    data_magic (0.22)
+      faker (>= 1.1.2)
+      yml_reader (>= 0.6)
+    diff-lcs (1.2.5)
+    faker (1.6.6)
+      i18n (~> 0.5)
+    ffi (1.9.14-x86-mingw32)
+    gherkin (4.0.0)
+    i18n (0.7.0)
+    json (1.8.3)
+    mini_portile2 (2.1.0)
+    minitest (5.9.1)
+    multi_json (1.12.1)
+    multi_test (0.1.2)
+    page-object (1.2.0)
+      page_navigation (>= 0.9)
+      selenium-webdriver (>= 2.44.0)
+      watir-webdriver (>= 0.6.11)
+    page_navigation (0.9)
+      data_magic (>= 0.14)
+    rake (11.3.0)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.8)
+    rspec-expectations (2.14.5)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.6)
+    rubyzip (1.2.0)
+    selenium-webdriver (2.53.4)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    thread_safe (0.3.5)
+    tiny_tds (1.0.4-x86-mingw32)
+      mini_portile2 (~> 2.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    watir-webdriver (0.9.3)
+      selenium-webdriver (>= 2.46.2)
+    websocket (1.2.3)
+    yml_reader (0.7)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  activerecord (= 4.2.7)
+  activerecord-sqlserver-adapter
+  cucumber
+  ffi
+  page-object
+  rake
+  rspec (= 2.14.1)
+  selenium-webdriver
+  tiny_tds
+  watir-webdriver
+
+BUNDLED WITH
+   1.13.1

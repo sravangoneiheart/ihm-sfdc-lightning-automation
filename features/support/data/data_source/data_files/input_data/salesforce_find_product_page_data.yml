@@ -1,0 +1,25 @@
+FIND_PRODUCT_DATA:
+  COMEDY_MF_OVERNIGHT: "check"
+  SELECT_BUTTON: "click"
+  GROSS_LINE_AMOUNT: 2500
+  START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+  NO_OF_WEEKS: 5
+  SAVE_BUTTON: "click"
+
+FIND_PRODUCT_DATA_NATIONAL_SALES:
+  COMEDY_MF_OVERNIGHT: "check"
+  SELECT_BUTTON: "click"
+  GROSS_LINE_AMOUNT: 2500
+  START_DATE: <%= Time.next(:monday, Time.warp(:days => 50)).strftime("%m/%d/%Y") %>
+  NO_OF_WEEKS: 5
+  SAVE_BUTTON: "click"
+
+BUDGET_NATIONAL_PRODUCT_DATA:
+    BY_KEYWORD: "budget"
+    SEARCH_BUTTON: "click"
+    BUDGET: "check"
+    SELECT_BUTTON: "click"
+    GROSS_LINE_AMOUNT: 2500
+    START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+    NO_OF_WEEKS: 5
+    SAVE_BUTTON: "click"

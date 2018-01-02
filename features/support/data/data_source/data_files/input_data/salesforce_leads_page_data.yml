@@ -1,0 +1,71 @@
+NEW_LEADS_ADVERTISER_DATA:
+  FIRST_NAME: '<%= "automation_" + Time.now.strftime("%m/%d/%Y %H:%M:%S").inspect.gsub(/(\D)/,"") %>'
+  LAST_NAME: "testing"
+  COMPANY: "iheartmedia"
+  LEAD_SOURCE: "Call in"
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  ADVERTISER_OR_AGENCY: "Advertiser"
+
+
+NEW_LEADS_AGENCY_DATA:
+  FIRST_NAME: '<%= "automation_" + Time.now.strftime("%m/%d/%Y %H:%M:%S").inspect.gsub(/(\D)/,"") %>'
+  LAST_NAME: "testing"
+  COMPANY: "iheartmedia"
+  LEAD_SOURCE: "Call in"
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  ADVERTISER_OR_AGENCY: "Agency"
+
+
+NEW_LEADS_ADVERTISER_DATA_2:
+  FIRST_NAME: "automation"
+  LAST_NAME: "testing"
+  LEAD_SOURCE: "Call in"
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  ADVERTISER_OR_AGENCY: "Advertiser"
+
+
+NEW_LEADS_ADVERTISER_DATA_3:
+  FIRST_NAME: "automation"
+  LAST_NAME: "testing"
+  COMPANY: "iheartmedia"
+
+
+NEW_LEADS_ADVERTISER_DATA_4:
+  FIRST_NAME: "automation"
+  LAST_NAME: "testing"
+  COMPANY: "iheartmedia"
+  LEAD_SOURCE: "Advertiser"
+  ADVERTISER_OR_AGENCY: "Advertiser"
+
+NEW_LEADS_ADVERTISER_DATA_LOCAL:
+  FIRST_NAME: "automation"
+  LAST_NAME: "testing"
+  COMPANY: "verify data"
+  LEAD_SOURCE: "Advertiser"
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  ADVERTISER_OR_AGENCY: "Advertiser"
+
+NEW_TASK_DATA:
+  TASK_SUBJECT: "Iheart Automation"
+  TASK_DUE_DATE: "05/30/2018"
+  TASK_ACTIVITY_TYPE: "Phone Call"
+  STATUS: "Completed"
+
+NEW_TASK_DATA_2:
+  TASK_SUBJECT: "Iheart Automation"
+  TASK_DUE_DATE: "05/30/2018"
+  TASK_ACTIVITY_TYPE: "Phone Call"
+  STATUS: "Open"
+
+NEW_LEADS_ADVERTISER_DATA_1:
+  FIRST_NAME: '<%= "automation_" + Time.now.strftime("%m/%d/%Y %H:%M:%S").inspect.gsub(/(\D)/,"") %>'
+  LAST_NAME: "testing"
+  COMPANY: '<%= "Advertiser" + Time.now.strftime("%Y/%m/%d %H:%M:%S").inspect.gsub(/(\D)/,"")+"_R"%>'
+  LEAD_SOURCE: "Call in"
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  ADVERTISER_OR_AGENCY: "Advertiser"

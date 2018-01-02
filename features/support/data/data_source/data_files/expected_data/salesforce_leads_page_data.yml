@@ -1,0 +1,6 @@
+SUCCESS_MESSAGES:
+  MASS_EDIT: 'Lead has been saved successfully!'
+
+ERROR_MESSAGES:
+  MASS_EDIT_ERROR: 'ERROR: A Lead Disposition is required on all Closed Leads.'
+  MANDATORY_FIELDS_ERROR: "Error: Invalid Data. Review all error messages below to correct your data."

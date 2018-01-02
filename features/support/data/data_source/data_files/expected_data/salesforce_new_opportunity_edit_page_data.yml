@@ -1,0 +1,3 @@
+ERROR_MESSAGES:
+  INVALID_DATA: "Error: Invalid Data. Review all error messages below to correct your data. You have selected a market that you are currently not authorized to select. Please update Market field value or contact your system administrator"
+  COLLECTIONS: "Error: Invalid Data. Review all error messages below to correct your data."

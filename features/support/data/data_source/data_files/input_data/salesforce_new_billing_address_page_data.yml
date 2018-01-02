@@ -1,0 +1,114 @@
+NEW_BILLING_ADDRESS_DATA:
+  ADDRESS1:  "27071 Aliso Creek RD"
+  CITY: "Aliso Viejo"
+  STATE_PROVINCE: "California"
+  #ZIP_POSTAL_CODE: <%=Random.rand(9).to_s + Random.rand(9).to_s + Random.rand(9).to_s + Random.rand(9).to_s + Random.rand(9).to_s%>
+  ZIP_POSTAL_CODE: "92656"
+
+
+NEW_BILLING_ADDRESS_DATA_2:
+  ADDRESS1:  "27071 Aliso Creek RD"
+  CITY: "Aliso Viejo"
+  STATE_PROVINCE: "California"
+  ZIP_POSTAL_CODE: <%=Random.rand(9).to_s + Random.rand(9).to_s + Random.rand(9).to_s + Random.rand(9).to_s + Random.rand(9).to_s%>
+  #ZIP_POSTAL_CODE: "92656"
+
+
+NEW_BILLING_INFORMATION:
+   BILLING_NAME: <%= "Bill" + Time.now.strftime("%Y/%m/%d %H:%M:%S").inspect.gsub(/(\D)/,"")%>
+   ADDRESS:  "27071 Aliso Creek RD"
+   CITY_1: "Aliso Viejo"
+   STATE_PROVINCE: "California"
+   ZIP_POSTAL_CODE: "92656"
+   BILLING_EMAIL: srg1@gmail.com
+
+DUPLICATE_BILLING_INFORMATION:
+   BILLING_NAME: "Validate Address"
+   ADDRESS:  "27071 Aliso Creek RD"
+   CITY_1: "Aliso Viejo"
+   STATE_PROVINCE: "California"
+   ZIP_POSTAL_CODE: "92656"
+   BILLING_EMAIL: srg1@gmail.com
+
+NEW_BILLING_INFORMATION_2:
+   BILLING_NAME: "Validate Address"
+   ADDRESS:  "19275 stone oak pkwy"
+   ADDRESS_2: "Apt 1623"
+   CITY_1: "San Antonio"
+   STATE_PROVINCE: "Texas"
+   ZIP_POSTAL_CODE: "78258"
+   BILLING_EMAIL: ssr11@gmail.com
+
+ALTERNATE_BILLING_INFORMATION:
+   BILLING_NAME: <%= "Bill" + Time.now.strftime("%Y/%d/%m %H:%M:%S").inspect.gsub(/(\D)/,"")%>
+   ADDRESS:  "20880 stone oak pkwy"
+   CITY_1: "San Antonio"
+   STATE_PROVINCE: "Texas"
+   ZIP_POSTAL_CODE: "78258"
+   BILLING_EMAIL: ssr11@gmail.com
+
+ERROR_BILLING_INFORMATION:
+   BILLING_NAME: <%= "Bill" + Time.now.strftime("%Y/%m/%d %H:%M:%S").inspect.gsub(/(\D)/,"")%>
+   ADDRESS:  "20880 stone oak pkwy"
+   CITY_1: "San Antonio"
+   STATE_PROVINCE: "Texas"
+   ZIP_POSTAL_CODE: "78258"
+   #BILLING_EMAIL: ssr11@gmail.com
+
+ALTERNATE_AR_CONTACT_INFORMATION:
+   AR_CONTACT_NAME: "Sunny"
+   AR_CONTACT_TITLE: "Billing profile"
+   AR_CONTACT_PHONE: "2222226464"
+   AR_CONTACT_EMAIL: "srg123@gmail.com"
+   AR_ALTERNATE_CONTACT_NAME: "Sunny sis"
+   AR_ALTERNATE_CONTACT_TITLE: "Billing alternate title"
+   AR_ALTERNATE_CONTACT_PHONE: "5738039243"
+   AR_ALTERNATE_CONTACT_EMAIL: "srg21@gmail.com"
+
+NEW_AR_CONTACT_INFORMATION:
+   AR_CONTACT_NAME: "Sam"
+   AR_CONTACT_TITLE: "Billing status"
+   AR_CONTACT_PHONE: "2222226565"
+   AR_CONTACT_EMAIL: "srg1@gmail.com"
+   AR_ALTERNATE_CONTACT_NAME: "Sam sis"
+   AR_ALTERNATE_CONTACT_TITLE: "Billing alternate"
+   AR_ALTERNATE_CONTACT_PHONE: "2102535229"
+   AR_ALTERNATE_CONTACT_EMAIL: "srg2@gmail.com"
+
+
+AR_LENGTH_CONTACT_INFORMATION:
+   AR_CONTACT_NAME: '<%= "x"*132 %>'
+   AR_CONTACT_TITLE: '<%= "x"*80 %>'
+   AR_CONTACT_PHONE: "2222226565"
+   AR_CONTACT_EMAIL: "srg1@gmail.com"
+   AR_ALTERNATE_CONTACT_NAME: '<%= "x"*132 %>'
+   AR_ALTERNATE_CONTACT_TITLE: '<%= "x"*80 %>'
+   AR_ALTERNATE_CONTACT_PHONE: "2102535229"
+   AR_ALTERNATE_CONTACT_EMAIL: "srg2@gmail.com"
+
+
+BILLING_ADDRESS_1:
+   BILLING_NAME: <%= "Bill" + Time.now.strftime("%Y/%m/%d %H:%M:%S").inspect.gsub(/(\D)/,"")%>
+   ADDRESS:  "27071 Aliso Creek RD Suite 110"
+   CITY_1: "Aliso Viejo"
+   STATE_PROVINCE: "California"
+   ZIP_POSTAL_CODE: "92656"
+   BILLING_EMAIL: srg1@gmail.com
+
+NEW_BILLING_INFORMATION_ADV_1_INJECTION:
+   BILLING_NAME: <%= "Bill" + Time.now.strftime("%Y/%m/%d%H:%M:%S").inspect.gsub(/(\D)/,"")%>
+   ADDRESS:  "21302 Encino Cmns"
+   CITY_1: "San Antonio "
+   STATE_PROVINCE: "Texas"
+   ZIP_POSTAL_CODE: "78259-2719 "
+   BILLING_EMAIL: srg1@gmail.com
+   ADDRESS_2: 'Suite 500'
+
+NEW_BILLING_INFORMATION_ADV_2_INJECTION:
+   BILLING_NAME: <%= "Bill" + Time.now.strftime("%Y/%m/%d%H:%M:%S").inspect.gsub(/(\D)/,"")%>
+   ADDRESS:  "27071 Aliso Creek Rd"
+   CITY_1: "Aliso Viejo"
+   STATE_PROVINCE: "California"
+   ZIP_POSTAL_CODE: "92656-5327"
+   BILLING_EMAIL: srg1@gmail.com
+   ADDRESS_2: ''

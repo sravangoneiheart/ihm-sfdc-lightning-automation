@@ -1,0 +1,211 @@
+GENERIC_DATA:
+  OPPORTUNITY_NAME: "Automation Test"
+  OPP_DESCRIPTION: "Ruby Cucumber Automation Test Runthrough"
+  INDUSTRY: "Miscellaneous"
+  SUB_INDUSTRY: "Miscellaneous"
+  SAM: "MARTHA CURRAS"
+  STAGE: "Qualification - 5%"
+  CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+
+DIFFERENT_DATA:
+  OPPORTUNITY_NAME: "Automation Test"
+  OPP_DESCRIPTION: "Ruby Cucumber Automation Desc Change"
+  INDUSTRY: "Consumer Services"
+  SUB_INDUSTRY: "Domestic/Services"
+  SAM: "MARTHA CURRAS"
+  STAGE: "Qualification - 5%"
+  CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+
+TTN_OPPORTUNITY_DATA:
+  OPP_DESCRIPTION: "Automation Test"
+  CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+  STAGE: "Qualification - 5%"
+
+AMAN_DATA:
+    OPPORTUNITY_NAME: "Automation AMAN BDD Test"
+    OPP_DESCRIPTION: "AMAN-Ruby Cucumber Automation Desc Change"
+    INDUSTRY: "Consumer Services"
+    SUB_INDUSTRY: "Domestic/Services"
+    SAM: "MARTHA CURRAS"
+    STAGE: "Qualification - 5%"
+    CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA:
+        OPPORTUNITY_NAME: "Na Oppor Test"
+        TYPE: "Avail"
+        AGENCY_OR_DIRECT: "Agency"
+        CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        STAGE: "Qualification - 5%"
+        AMOUNT_INPUT: 2500
+        GROSS_AMOUNT: "2000"
+        NATIONAL_GROSS_AMOUNT: '2000'
+        START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_2:
+        OPPORTUNITY_NAME: "Sravan Test"
+        TYPE: "Avail"
+        AGENCY_OR_DIRECT: "Direct"
+        CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        STAGE: "Qualification - 5%"
+        AMOUNT_INPUT: 2500
+        START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_3:
+        OPPORTUNITY_NAME: "Sravan Test"
+        TYPE: "Avail"
+        AGENCY_OR_DIRECT: "Direct"
+        CLOSE_DATE: <%= Time.next(:tuesday, Time.warp(:days => 5)).strftime("%m/%d/%Y") %>
+        STAGE: "Qualification - 5%"
+        AMOUNT_INPUT: 2500
+        GROSS_AMOUNT: "2000"
+        START_DATE: <%= Time.next(:wednesday, Time.warp(:days => 6)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_4:
+        OPPORTUNITY_NAME: "Sravan Test"
+        TYPE: "Digital RFP"
+        AGENCY_OR_DIRECT: "Direct"
+        CLOSE_DATE: <%= Time.next(:friday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        STAGE: "Qualification - 5%"
+        AMOUNT_INPUT: 2500
+        START_DATE: <%= Time.next(:wednesday, Time.warp(:days => 6)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_5:
+        CLOSE_DATE: <%= Time.next(:wednesday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        START_DATE: <%= Time.next(:monday, Time.warp(:days => 4)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_6:
+        CLOSE_DATE: <%= Time.next(:wednesday, Time.warp(:days => 4)).strftime("%m/%d/%Y") %>
+        START_DATE: <%= Time.next(:friday, Time.warp(:days => 6)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_7:
+        STAGE: "Closed - Lost"
+        CLOSED_REASON : "Inside Sales Only"
+        CLOSED_REASON_DETAIL : "Named Account - Local"
+        CLOSE_DATE: <%= Time.next(:friday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        START_DATE: <%= Time.next(:wednesday, Time.warp(:days => 4)).strftime("%m/%d/%Y") %>
+
+NATIONAL_OPPORTUNITY_DATA_8:
+        STAGE: "Closed - Lost"
+        CLOSED_REASON : "Inside Sales Only"
+        CLOSED_REASON_DETAIL : "Named Account - Local"
+        CLOSE_DATE: <%= Time.next(:tuesday, Time.warp(:days => 4)).strftime("%m/%d/%Y") %>
+        START_DATE: <%= Time.next(:wednesday, Time.warp(:days => 6)).strftime("%m/%d/%Y") %>
+
+
+
+NATIONAL_STAGE_LOST_OR_WON_OPPORTUNITY_DATA:
+        OPPORTUNITY_NAME: "Pranay Test"
+        AGENCY_OR_DIRECT: "Direct"
+        CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        STAGE: "Closed - Lost"
+        CLOSED_REASON : "Inside Sales Only"
+        CLOSED_REASON_DETAIL : "Named Account - Local"
+        AMOUNT_INPUT: 2500
+        START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+
+NATIONAL_STAGE_WON_OPPORTUNITY_DATA:
+         OPPORTUNITY_NAME: "Pranay Test"
+         AGENCY_OR_DIRECT: "Direct"
+         CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+         STAGE: "Closed - Won"
+         CLOSED_REASON : "Reach"
+         CLOSED_REASON_DETAIL : "Strength of Footprint"
+         AMOUNT_INPUT: 2500
+         START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+         END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+PRODUCT_NATIONAL_OPPORTUNITY_DATA:
+            OPPORTUNITY_NAME: "Pranay Test"
+            AGENCY_OR_DIRECT: "Direct"
+            CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+            STAGE: "Qualification - 5%"
+            AMOUNT_INPUT: 2500
+AGENCY_NATIONAL_OPPORTUNITY_DATA:
+            OPPORTUNITY_NAME: "Pranay Test"
+            AGENCY_OR_DIRECT: "Agency"
+            CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+            STAGE: "Qualification - 5%"
+            AGENCY: "vasrum"
+           # AMOUNT_INPUT: 2500
+MULTIPLATFORM_OPPORTUNITY_DATA:
+        OPPORTUNITY_NAME: "Pranay Test"
+        AGENCY_OR_DIRECT: "Direct"
+        CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        STAGE: "Qualification - 5%"
+        AMOUNT_INPUT: 2500
+        START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+        INITIAL_BUDGET_AMOUNT: "5000"
+        TYPE: "Avail"
+
+LOCAL_OPPORTUNITY_DATA:
+              OPPORTUNITY_NAME: "Pranay Test"
+              AGENCY_OR_DIRECT: "Direct"
+              CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+              STAGE: "Top Line Ideas - 25%"
+              OPP_DESCRIPTION: "Automation Test"
+              GROSS_AMOUNT: "5000"
+LOCAL_OPPORTUNITY_DATA_2:
+              OPPORTUNITY_NAME: "Sravan Test"
+              AGENCY_OR_DIRECT: "Direct"
+              CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+              STAGE: "Qualified (CNA)"
+              OPP_DESCRIPTION: "Automation Test"
+              GROSS_AMOUNT: "5000"
+
+PARENT_LOCAL_OPPORTUNITY_DATA:
+              OPPORTUNITY_NAME: "Test"
+              AGENCY_OR_DIRECT: "Direct"
+              CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+              STAGE: "Open"
+              OPP_DESCRIPTION: "Automation Test"
+              INITIAL_BUDGET_AMOUNT: "1000"
+PARENT_LOCAL_OPPORTUNITY_DATA_2:
+              OPPORTUNITY_NAME: "Pranay Test"
+              AGENCY_OR_DIRECT: "Direct"
+              CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+              STAGE: "Open"
+              OPP_DESCRIPTION: "Automation Testing"
+              INITIAL_BUDGET_AMOUNT: "2000"
+
+
+MULTIPLATFORM_AGENCY_OPPORTUNITY_DATA:
+                OPPORTUNITY_NAME: "Pranay Test"
+                AGENCY_OR_DIRECT: "Agency"
+                CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+                STAGE: "Qualification - 5%"
+                AMOUNT_INPUT: 2500
+                START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+                END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+                INITIAL_BUDGET_AMOUNT: "5000"
+MULTIPLATFORM_AGENCY_OPPORTUNITY_DATA_2:
+                INDUSTRY: "Consumer Services"
+                SUB_INDUSTRY: "Domestic/Services"
+                TYPE: "Trade Avail"
+                STAGE: "Top Line Ideas - 25%"
+
+
+
+ALL_MULTIPLATFORM_OPPORTUNITY_DATA:
+        OPPORTUNITY_NAME: "Pranay Test"
+        AGENCY_OR_DIRECT: "Direct"
+        CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        STAGE: "Qualification - 5%"
+        AMOUNT_INPUT: 2500
+        START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+        END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+        INDUSTRY: "Agriculture & Farming"
+        SUB_INDUSTRY: "Farm/Equip/Feed"
+        POPULATION_TYPE: "General Market"
+        DIVISION: "Inside Sales"
+        INITIAL_BUDGET_AMOUNT: "5000"
+        MMP: 'check'
+        HOME_MARKET: 'Charleston, WV'
+STAGE_CLOSE_DATE_UPDATE_MULTIPLATFORM_OPPORTUNITY_DATA:
+        CLOSE_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+        STAGE: "Top Line Ideas - 25%"
+
+ERROR_MESSAGEVALIDATION:
+   INVOICE_ERROR_MESSAGE: "Error: Invoice Copies should equal 1 or greater if Notarize Invoice is checked."

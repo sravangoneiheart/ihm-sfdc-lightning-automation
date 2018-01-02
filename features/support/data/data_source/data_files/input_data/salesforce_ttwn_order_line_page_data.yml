@@ -1,0 +1,4 @@
+LINE_ITEM_DATA:
+  MARKET: "Charlotte"
+  START_DATE: <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+  DESIRED_SPOTS: 10

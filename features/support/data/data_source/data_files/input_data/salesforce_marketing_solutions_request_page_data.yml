@@ -1,0 +1,28 @@
+MARKETING_SOLUTIONS_DATA:
+   PRESENTED_OR_SUBMITTED: "Submitted"
+   INTERNAL_DUE_DATE:  <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+   EXTERNAL_PRESENTATION_DATE:   <%= Time.next(:friday, Time.warp(:days => 35)).strftime("%m/%d/%Y") %>
+   BUDGET:  "2500"
+   REGIONAL_MANAGER: "Bryce Adams"
+
+
+
+MARKETING_SOLUTIONS_DATA_2:
+   PRESENTED_OR_SUBMITTED: "Submitted"
+   INTERNAL_DUE_DATE:  <%= Time.next(:monday, Time.warp(:days => 28)).strftime("%m/%d/%Y") %>
+   EXTERNAL_PRESENTATION_DATE:   <%= Time.next(:friday, Time.warp(:days => 35)).strftime("%m/%d/%Y") %>
+   BUDGET:  "2500"
+   REGIONAL_MANAGER: "Tari Rorvik"
+   CLIENT_BRIEF:  "This is the example opportunity"
+   CLIENT_OBJECTIVES: "Verify opportunity data"
+   CLIENT_CHALLANGES:  "client need to get opportunity value"
+   CLIENT_TIMING:  "verify the timings will be available"
+   NATIONAL_OR_MULTI: "Its should be a national"
+   CLIENT_AUDIENCE: "the audience should be mentoned "
+   HOW_WILL_THE_CLIENT_MEASURE: "the client should measure the impact"
+   IS_THE_OPP_FROM_THE_CLIENT_OR_AGENCY: "its depends "
+   IHM_ONLY_CAMPAIGN: "yes the campaign only"
+
+
+
+

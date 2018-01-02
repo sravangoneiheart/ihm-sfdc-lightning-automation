@@ -1,0 +1,14 @@
+ERROR_MESSAGES:
+  INSUFFICIENT_PRIVILEGES: "You do not have the level of access necessary to perform the operation you requested. Please contact the owner of the record or your administrator if access is necessary. For more information, see Insufficient Privileges errors."
+
+AMOUNT_VALUES_1:
+  PROBABILITY_VALUE:  "25%"
+  GROSS_AMOUNT_VALUE: "$2,500.00"
+  GROSS_EXPECTED_REVENUE: "$625.00"
+  NET_AMOUNT_VALUE: "$2,500.00"
+
+AMOUNT_VALUES_2:
+   PROBABILITY_VALUE:  "25%"
+   GROSS_AMOUNT_VALUE: "$2,500.00"
+   GROSS_EXPECTED_REVENUE: "$625.00"
+   NET_AMOUNT_VALUE: "$2,500.00"

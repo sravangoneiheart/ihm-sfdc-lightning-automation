@@ -1,0 +1,16 @@
+MANAGE_ONE_PRODUCTS:
+          FIRST_STATION: "WKKT-FM"
+          FIRST_GROSS_LINE_AMOUNT: "2500"
+          FIRST_START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+          FIRST_END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+MANAGE_SECOND_PRODUCTS:
+          SECOND_STATION: "WKKT-FM"
+          SECOND_GROSS_LINE_AMOUNT: "2500"
+          SECOND_START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+          SECOND_END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>
+
+MANAGE_THIRD_PRODUCTS:
+          THIRD_STATION: "WKKT-FM"
+          THIRD_GROSS_LINE_AMOUNT: "2500"
+          THIRD_START_DATE: <%= Time.next(:monday, Time.warp(:days => 7)).strftime("%m/%d/%Y") %>
+          THIRD_END_DATE: <%= Time.next(:monday, Time.warp(:days => 14)).strftime("%m/%d/%Y") %>

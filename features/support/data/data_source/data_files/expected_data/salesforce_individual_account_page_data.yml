@@ -1,0 +1,246 @@
+ACCOUNT_ADV_1_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAMN: '<%= $captured_value%>'
+    LEGALNAME: '<%= $captured_value%>'
+    ADRESS: '21302 Encino Cmns'
+    INDUSTRY_CODE: 'Farm/Equip/Feed'
+    LEGALADDRESS1: '21302 Encino Cmns'
+    LEGALCITY: 'San Antonio'
+    LEGALSTATE: 'TX'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: '78259-2719'
+    EXCLUDEALLCONTROVERSIAL: 'false'
+    FAX: ''
+#    LEGALPHONE: ''
+    ACTIVE: 'true'
+    INVOICECOPIES: '0'
+    CREDIT_LIMIT: ''
+    PAYMENT_TERMS: '0'
+    CREDITTYPE: 'Cash in Advance'
+    CREDITSTATUS: ''
+    KU_CREDIT_APPROVED: 'false'
+    MDMID: ''
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+ACCOUNT_AGC_1_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAME: '<%= $captured_value%>'
+    LEGALNAME: '<%= $captured_value%>'
+    LEGALADDRESS1: '21302 Encino Cmns'
+    LEGALCITY: 'San Antonio'
+    LEGALSTATE: 'TX'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: '78259-2719'
+    FAX: ''
+#    LEGALPHONE: ''
+    ACTIVE: 'true'
+    INVOICECOPIES: '0'
+    CREDIT_LIMIT: ''
+#    PAYMENT_TERMS: '0'
+#    CREDITTYPE: 'Cash in Advance'
+    CREDITTYPE: ''
+    CREDITSTATUS: ''
+    SR_CREDIT_APPROVED: 'false'
+    MDMID: ''
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+ACCOUNT_ADV_1_DUP_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAMN: '<%= $captured_value + "1"%>'
+    LEGALNAME: '<%= $captured_value%>'
+    ADRESS: '21302 Encino Cmns'
+    INDUSTRY_CODE: 'Farm/Equip/Feed'
+    LEGALADDRESS1: '21302 Encino Cmns'
+    LEGALCITY: 'San Antonio'
+    LEGALSTATE: 'TX'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: '78259-2719'
+    EXCLUDEALLCONTROVERSIAL: 'false'
+    FAX: ''
+#    LEGALPHONE: ''
+    ACTIVE: 'true'
+    INVOICECOPIES: '0'
+    CREDIT_LIMIT: ''
+    PAYMENT_TERMS: '0'
+    CREDITTYPE: 'Cash in Advance'
+    CREDITSTATUS: ''
+    KU_CREDIT_APPROVED: 'false'
+    MDMID: ''
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+
+ACCOUNT_AGC_1_DUP_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAME: '<%= $captured_value + "1"%>'
+    LEGALNAME: '<%= $captured_value%>'
+#    LEGALADDRESS1: '21302 Encino Cmns'
+#    INDUSTRY_CODE: 'Farm/Equip/Feed'
+    LEGALADDRESS1: '21302 Encino Cmns'
+    LEGALCITY: 'San Antonio'
+    LEGALSTATE: 'TX'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: '78259-2719'
+#    EXCLUDEALLCONTROVERSIAL: 'false'
+    FAX: ''
+#    LEGALPHONE: ''
+    ACTIVE: 'true'
+    INVOICECOPIES: '0'
+    CREDIT_LIMIT: ''
+#    PAYMENT_TERMS: '0'
+#    CREDITTYPE: 'Cash in Advance'
+    CREDITSTATUS: ''
+    SR_CREDIT_APPROVED: 'false'
+    MDMID: ''
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+
+ACCOUNT_ADV_2_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAMN: '<%= $captured_value%>'
+    LEGALNAME: '<%= $captured_value%>'
+    ADRESS: "27071 Aliso Creek Rd"
+    INDUSTRY_CODE: "Auto Parts"
+    LEGALADDRESS1: "27071 Aliso Creek Rd"
+    LEGALCITY: "Aliso Viejo"
+    LEGALSTATE: 'CA'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: "92656-5327"
+    EXCLUDEALLCONTROVERSIAL: 'true'
+    FAX: '(787) 878-7878'
+    LEGALPHONE:  '(555) 666-7890'
+    ACTIVE: 'true'
+    INVOICECOPIES: '3'
+    CREDIT_LIMIT: '50000.0'
+    PAYMENT_TERMS: '15'
+    CREDITTYPE: 'Credit'
+    CREDITSTATUS: 'Completed'
+    KU_CREDIT_APPROVED: 'true'
+    MDMID: 'M-123987'
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+ACCOUNT_ADV_2_DUP_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAMN: '<%= $captured_value + "1"%>'
+    LEGALNAME: '<%= $captured_value%>'
+    ADRESS: "27071 Aliso Creek Rd"
+    INDUSTRY_CODE: "Auto Parts"
+    LEGALADDRESS1: "27071 Aliso Creek Rd"
+    LEGALCITY: "Aliso Viejo"
+    LEGALSTATE: 'CA'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: "92656-5327"
+    EXCLUDEALLCONTROVERSIAL: 'true'
+    FAX: '(787) 878-7878'
+    LEGALPHONE:  '(555) 666-7890'
+    ACTIVE: 'true'
+    INVOICECOPIES: '3'
+    CREDIT_LIMIT: '50000.0'
+    PAYMENT_TERMS: '15'
+    CREDITTYPE: 'Credit'
+    CREDITSTATUS: 'Completed'
+    KU_CREDIT_APPROVED: 'true'
+    MDMID: 'M-123987'
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+ACCOUNT_AGC_2_DB_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAME: '<%= $captured_value%>'
+    LEGALNAME: '<%= $captured_value%>'
+#    LEGALADDRESS1: "27071 Aliso Creek Rd"
+#    INDUSTRY_CODE: "Auto Parts"
+    LEGALADDRESS1: "27071 Aliso Creek Rd"
+    LEGALCITY: "Aliso Viejo"
+    LEGALSTATE: 'CA'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: "92656-5327"
+#    EXCLUDEALLCONTROVERSIAL: 'true'
+    FAX: '(787) 878-7878'
+    LEGALPHONE:  '(555) 666-7890'
+    ACTIVE: 'true'
+    INVOICECOPIES: '3'
+#    CREDIT_LIMIT: '50000.0'
+#    PAYMENT_TERMS: '15'
+#    CREDITTYPE: 'Credit'
+#    CREDITSTATUS: 'Completed'
+    SR_CREDIT_APPROVED: 'true'
+    MDMID: 'M-123987'
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+ACCOUNT_AGC_2_DB_DUP_VALUES:
+    SFDCID: '<%= $captured_results["sfdcid"]%>'
+    NAME: '<%= $captured_value + "1"%>'
+    LEGALNAME: '<%= $captured_value%>'
+#    ADRESS: "27071 Aliso Creek Rd"
+#    INDUSTRY_CODE: "Auto Parts"
+    LEGALADDRESS1: "27071 Aliso Creek Rd"
+    LEGALCITY: "Aliso Viejo"
+    LEGALSTATE: 'CA'
+    LEGALCOUNTRY: 'US'
+    LEGALZIPCODE: "92656-5327"
+#    EXCLUDEALLCONTROVERSIAL: 'true'
+    FAX: '(787) 878-7878'
+    LEGALPHONE:  '(555) 666-7890'
+    ACTIVE: 'true'
+    INVOICECOPIES: '3'
+#    CREDIT_LIMIT: '50000.0'
+#    PAYMENT_TERMS: '15'
+#    CREDITTYPE: 'Credit'
+#    CREDITSTATUS: 'Completed'
+    SR_CREDIT_APPROVED: 'true'
+    MDMID: 'M-123987'
+    FRIENDLYID: '<%= $captured_results["customer_id"]%>'
+
+NEW_BILLING_INFORMATION_ADV_1_INJECTION:
+   SFDCID: '<%=$captured_results["billing_sfdc"]%>'
+   ADDRESS1:  "21302 Encino Cmns"
+   CITY: "San Antonio"
+   STATE: "TX"
+   ZIPCODE: "78259"
+  # BILLING_EMAIL: srg1@gmail.com
+   ADDRESS2: 'Suite 500'
+   ADDRESSTYPEID: '2'
+   ACTIVE: 'true'
+   COUNTRY: 'US'
+
+
+NEW_BILLING_INFORMATION_ADV_2_INJECTION:
+   SFDCID: '<%=$captured_results["billing_sfdc"]%>'
+   ADDRESS1:  "27071 Aliso Creek Rd"
+   CITY: "Aliso Viejo"
+   STATE: "CA"
+   ZIPCODE: "92656"
+  # BILLING_EMAIL: srg1@gmail.com
+   ADDRESS2: ''
+   ADDRESSTYPEID: '2'
+   ACTIVE: 'true'
+   COUNTRY: 'US'
+
+NEW_BILLING_INFORMATION_AGC_1_INJECTION:
+   SFDCID: '<%=$captured_results["billing_sfdc"]%>'
+   ADDRESS1:  "21302 Encino Cmns"
+   CITY: "San Antonio"
+   STATE: "TX"
+   ZIPCODE: "78259"
+  # BILLING_EMAIL: srg1@gmail.com
+   ADDRESS2: 'Suite 500'
+   ADDRESSTYPEID: '2'
+   ACTIVE: 'true'
+   COUNTRY: 'US'
+
+
+NEW_BILLING_INFORMATION_AGC_2_INJECTION:
+   SFDCID: '<%=$captured_results["billing_sfdc"]%>'
+   ADDRESS1:  "27071 Aliso Creek Rd"
+   CITY: "Aliso Viejo"
+   STATE: "CA"
+   ZIPCODE: "92656"
+  # BILLING_EMAIL: srg1@gmail.com
+   ADDRESS2: ''
+   ADDRESSTYPEID: '2'
+   ACTIVE: 'true'
+   COUNTRY: 'US'
+
+ERROR_MESSAGES:
+  INSUFFICIENT_PRIVILEGES: "You do not have the level of access necessary to perform the operation you requested. Please contact the owner of the record or your administrator if access is necessary. For more information, see Insufficient Privileges errors."
+WARNING_MESSAGES:
+  SEARCH_WARNING: "No matches found"

@@ -1,0 +1,2 @@
+ERROR_MESSAGES:
+  INACTIVE_PRIMARY: 'Error: This address is marked as Primary and cannot be deactivated. An alternate Primary address must be chosen before deactivation can occur.'
