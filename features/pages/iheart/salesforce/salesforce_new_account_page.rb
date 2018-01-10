@@ -204,7 +204,7 @@ class SalesforceNewAccountPage < WebPage
   def self.page_title_validation_value
     #Subbu - 08/15/16 - changing values to accommodate new and edit page
     #/New Account/
-    /Account/
+    //
 
   end
 
@@ -217,7 +217,7 @@ class SalesforceNewAccountPage < WebPage
     #/001\/e?retURL=/
     #/001\/e\?retURL=/
     #Subbu - 08/15/16 - changing values to accommodate new and edit page
-    /\/e\?retURL=/
+    //
 
   end
 

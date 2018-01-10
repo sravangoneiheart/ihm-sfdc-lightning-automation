@@ -1,19 +1,27 @@
 class SalesforceLeadsPage < WebPage
 
-  #leads page account
-  button(:new_button, :value => " New ")
-  text_field(:first_name, :id => "name_firstlea2")
-  text_field(:last_name, :id => "name_lastlea2")
-  text_field(:company, :id => "lea3")
-  select_list(:lead_status, :id => "lea13")
-  select_list(:lead_source, :id => "lea5")
-  select_list(:industry, :id => "lea6")
-  select_list(:sub_industry, :id => "00NE0000005RgwU")
-  select_list(:advertiser_or_agency, :id => "00NE0000005RgwD")
-  text_field(:agency_relationship, :id => "CF00NE0000005RgwE")
-  button(:edit_button, :name => "edit")
-  select_list(:record_type, :id => "p3")
-  button(:continue_button, :value => "Continue")
+  #leads page account lightning
+  list_item(:new_lead, :xpath => "//*[@id='brandBand_1']/div/div/div[2]/div/div/div[1]/div[1]/div[2]/ul/li[1]")
+
+
+
+  text_field(:last_name, :class => "compoundBLRadius compoundBRRadius form-element__row input")
+  text_field(:first_name, :class => "compoundBorderBottom form-element__row input")
+  text_field(:company, :class => " input")
+  text_field(:company, :xpath => "html/body/div[5]/div[2]/div[3]/div[2]/div/div[2]/div/div[4]/div/div[1]/div/div/div[3]/div[1]/div/div/div/input")
+  select_list(:lead_source, :xpath => "html/body/div[5]/div[2]/div[3]/div[2]/div/div[2]/div/div[4]/div/div[4]/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div/a")
+  select_list(:lead_source_type, :xpath => "html/body/div[5]/div[2]/div[3]/div[2]/div/div[2]/div/div[4]/div/div[4]/div/div/div[2]/div[1]/div/div/div/div/div[1]/div/div/a")
+
+
+  text_area(:street, :class => "compoundTLRadius compoundTRRadius compoundBorderBottom textarea")
+  text_field(:city, :class => "compoundBorderRight compoundBorderBottom input")
+  text_field(:zip_code, :class => "compoundBLRadius compoundBorderRight input")
+  select_list(:state, :class => "select")
+  button(:save_button, :class => "slds-button slds-button--neutral uiButton--default uiButton--brand uiButton forceActionButton")
+
+
+
+
 
   ##create task
   button(:new_task, :value => "New Task")
@@ -31,7 +39,7 @@ class SalesforceLeadsPage < WebPage
   button(:new_account_button, :value => "New Account")
   link(:opportunity_link, :xpath => "html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[7]/div[1]/div/div[2]/table/tbody/tr[2]/th/a")
 
-  button(:save_button, :value => " Save ")
+
   button(:convert_lead, :xpath => "//*[@id='topButtonRow']//input[@value='Convert Lead']")
   select_list(:account_name_attach, :id => "accid")
   link(:look_up_account, :xpath => "//*[@id='acclkid_lkwgt']/img/..")
@@ -96,7 +104,6 @@ text_field(:subject, :id => "tsk5_fu")
   select_list(:mass_edit_second_lead_disposition,:id=>"pageMassEdit:frmMassEditLead:mainPageBlock:leadTable:1:j_id63")
   select_list(:view_my_accounts, :id => "fcf")
   button(:go,:value=>' Go! ')
-  button(:save,:value=>'Save')
   div(:mass_edit_message,:id=>'pageMassEdit:frmMassEditLead:mainPageBlock:j_id8:j_id9:j_id10:0:j_id11:j_id12:j_id14')
   select_list(:mass_edit_first_status,:id=>'pageMassEdit:frmMassEditLead:mainPageBlock:leadTable:0:j_id61')
   select_list(:mass_edit_second_status,:id=>'pageMassEdit:frmMassEditLead:mainPageBlock:leadTable:1:j_id61')
@@ -124,7 +131,6 @@ text_field(:subject, :id => "tsk5_fu")
 
   def form_field_order
     %w{
-    first_name
     last_name
     company
     lead_source
@@ -135,6 +141,15 @@ text_field(:subject, :id => "tsk5_fu")
     task_due_date
     task_activity_type
     status
+    street
+    city
+    zip_code
+    state
+    Website
+    yelp
+    facebook
+    google
+    webana
     }
   end
 
@@ -151,7 +166,7 @@ text_field(:subject, :id => "tsk5_fu")
   # Purpose: return the validation value for the page title
 
   def self.page_title_validation_value
-    /Recent Leads|New Lead|Lead/
+    //
   end
 
   # Name: page_url_validation_value
@@ -159,7 +174,7 @@ text_field(:subject, :id => "tsk5_fu")
   # Purpose: return the validation value for the page url
 
   def self.page_url_validation_value
-    /00Q/
+    //
   end
 
 end

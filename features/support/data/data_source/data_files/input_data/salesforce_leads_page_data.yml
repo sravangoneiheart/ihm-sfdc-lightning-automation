@@ -1,8 +1,14 @@
 NEW_LEADS_ADVERTISER_DATA:
-  FIRST_NAME: '<%= "automation_" + Time.now.strftime("%m/%d/%Y %H:%M:%S").inspect.gsub(/(\D)/,"") %>'
+  FIRST_NAME: 'automation'
   LAST_NAME: "testing"
   COMPANY: "iheartmedia"
+  COMPANY: "iheartmedia"
   LEAD_SOURCE: "Call in"
+  LEAD_SOURCE_TYPE: "Other"
+  STREET: "20880 stone oak pkwy"
+  CITY: "San antonio"
+  ZIP_CODE: "78258"
+  STATE: "Texas"
   INDUSTRY: "Miscellaneous"
   SUB_INDUSTRY: "Miscellaneous"
   ADVERTISER_OR_AGENCY: "Advertiser"

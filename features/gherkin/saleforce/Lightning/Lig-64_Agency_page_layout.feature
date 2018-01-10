@@ -9,6 +9,7 @@ Feature: Salesforce side testing -SF: Account - SF: permission set for local
     And the application navigates to the salesforce accounts page
     And the user click the new button
     And the user views the page
+    And the user presses the arrow_down keyboard key
     And the user clicks the next button
     And the user views the page
     And the user views the page
@@ -18,16 +19,3 @@ Feature: Salesforce side testing -SF: Account - SF: permission set for local
     And the user views the page
     And the user presses the tab keyboard key
     And the user presses the enter keyboard key
-#    And the user clicks the search button
-    And the user views the page
-    And the user views the page
-    And the user clicks the new account
-
-
-
-
-
-#    And the user clicks the new account
-#    Given the application navigates to the Salesforce new account page
-#
-#

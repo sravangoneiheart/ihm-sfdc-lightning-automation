@@ -39,7 +39,7 @@ class WebPage
 ####TABS IN SALESFORCE HEADER
   list_item(:home_tab, :id => "home_Tab")
   list_item(:chatter_tab, :id => "Chatter_Tab")
-  list_item(:accounts_tab, :id => "Account_Tab")
+  list_item(:accounts_tab, :xpath => "html/body/div[5]/div[1]/header/div[3]/one-appnav/div/one-app-nav-bar/nav/ul/li[3]")
   list_item(:contacts_tab, :id => "Contact_Tab")
   list_item(:opportunities_tab, :id => "Opportunity_Tab")
   list_item(:reports_tab, :id => "report_Tab")

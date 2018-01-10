@@ -20,6 +20,8 @@ When /^(?:a|the) user navigates to the Salesforce website$/ do
 
    sleep 10
   step "the application navigates to the Salesforce Home or Salesforce User Detail page"
+
+
 end
 
 
@@ -116,7 +118,7 @@ When /^the application (?:navigates to|remains on) the (.+?(?: or .+?)*?) page$/
   #subbu
   application_is_on_page?(page_names).should be_true
 end
-##
+#
 When /^the user clicks(?: the| a)? (.+)$/ do |page_element|
   # p "subbu"
   begin
@@ -160,6 +162,19 @@ When /^the user clicks(?: the| a)? (.+)$/ do |page_element|
     @current_page.execute_script(script, element)
   end
 end
+
+
+
+# When /^the user clicks(?: the| a)? (.+)$/ do |page_element|
+#   Watir::Wait.until(60) {@current_page.send(page_element.gsub(" ","_").downcase + "_element").exists?}
+#   field_type = @current_page.send(page_element.gsub(" ","_").downcase + "_element").class.to_s
+#   if field_type =~ /button/i
+#     @current_page.send(page_element.gsub(" ","_").downcase)
+#   else
+#     @current_page.send(page_element.gsub(" ","_").downcase + "_element").click
+#   end
+# end
+
 
 
 And(/^the user click on (.+) radio button$/) do |page_element|

@@ -2,9 +2,11 @@ class SalesforceNewOpportunityPage < WebPage
 
 
 
-  select_list(:record_type, :id => "p3")
-  button(:continue_button, :value => "Continue")
-  button(:cancel_button, :value => "Cancel")
+  list_item(:new_button, :class => "slds-button slds-button--neutral slds-truncate")
+  button(:next_button, :xpath => "/html/body/div[5]/div[2]/div[3]/div[2]/div/div[3]/div/button[2]")
+
+
+
 
 
   # Name: form_field_order

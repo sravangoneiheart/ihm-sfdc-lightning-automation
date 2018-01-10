@@ -16,8 +16,8 @@ When /^the user (?:selects|fills in) "(.*)" for (.+)$/ do |value, page_element|
     else
           @current_page.enter_element_value(page_element, value)
   end
-
 end
+
 
 When /^the user (?:fills|modifies) the (?:.+) page(?: (?:with|for|where) (.*))?$/ do |locator|
 

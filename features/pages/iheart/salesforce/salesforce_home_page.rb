@@ -20,6 +20,14 @@ class SalesforceHomePage < WebPage
   button(:light_navigation_button, :xpath => "html/body/div[5]/div[1]/header/div[2]/span/ul/li[10]/button")
   link(:switch_classic_mode, :xpath => "html/body/div[5]/div[2]/div[5]/div[1]/div[1]/div/div[4]/a")
 
+  list_item(:accounts_tab, :xpath => "html/body/div[5]/div[1]/header/div[3]/one-appnav/div/one-app-nav-bar/nav/ul/li[3]")
+  list_item(:leads_tab, :xpath => "html/body/div[5]/div[1]/header/div[3]/one-appnav/div/one-app-nav-bar/nav/ul/li[8]")
+  list_item(:lead_tab_local, :xpath => "html/body/div[5]/div[1]/header/div[3]/one-appnav/div/one-app-nav-bar/nav/ul/li[9]")
+  list_item(:opportunity_tab, :xpath => "//*[@id='oneHeader']/div[3]/one-appnav/div/one-app-nav-bar/nav/ul/li[5]")
+
+
+
+
   # Name: form_field_order
   # Input: No input is needed.
   # Purpose: Fills the details of the various fields in required order

@@ -8,7 +8,7 @@
     <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
     <envs>
       <env name="browser_type" value="chrome" />
-      <env name="and_tags" value="light" />
+      <env name="and_tags" value="light111" />
       <env name="user_name" value="riazeabdul@iheartmedia.com.qasf08" />
       <env name="password" value="Password234" />
       <env name="app_env" value="qa" />

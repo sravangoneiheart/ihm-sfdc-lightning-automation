@@ -8,41 +8,49 @@ class SalesforceAccountsPage < WebPage
 
 
 ####Recent Accounts Related List
-  button(:new_button, :value => " New ")
+  list_item(:new_button, :xpath => "//*[@id='brandBand_1']/div/div/div/div/div/div[1]/div[1]/div[2]/ul/li[1]")
+  button(:next_button, :xpath => "/html/body/div[5]/div[2]/div[3]/div[2]/div/div[3]/div/button[2]")
+
+  button(:candidate_search_button, :xpath => " //*[@id='pg:frm:j_id71:j_id72']/input[1]")
   link(:recent_account_link, :xpath =>"html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[3]/div[1]/div/div[2]/table/tbody/tr[2]/th/a")
+
 
     #New Account Sub-page
     select_list(:account_record_type, :id => "p3")
     button(:continue_button, :value => "Continue")
     #
-    text_field(:account_name_search, :id => "pg:frm:txtAccountName")
-    button(:more_button, :value => "More")
+  # text_field(:account_name_search, :class => "searchStr")
+
+
+   in_iframe(:id => /vfFrameId_\d+/) do |inner_frame|
+     text_field(:account_name_search, :id => "pg:frm:txtAccountName", :frame => inner_frame)
+
+   end
+
+  in_iframe(:id => /vfFrameId_\d+/) do |inner_frame|
+     button(:new_account, :class => 'btn newAccount', :frame => inner_frame)
+  end
+
+
+
+
+  #button(:new_account, :xpath => '//*[@id="pg:frm:j_id71:j_id72"]/input[3]')
+
+  in_iframe(:id => /vfFrameId_\d+/) do |inner_frame|
+    button(:more_button, :class => "btn tonextPage", :frame => inner_frame)
+    button(:search_button, :css => "input.btn", :frame => inner_frame)
+  end
+
+
+  in_iframe(:id => /vfFrameId_\d+/) do |inner_frame|
+
+  end
+
+    # span(:name_search, :xpath => "//*[@id='pg:frm:j_id36']")
     #
 ## candidate serach values
-  text_field(:address_name_search, :name =>"pg:frm:j_id49")
-  text_field(:city_name,:name => "pg:frm:j_id55")
-  text_field(:state_name, :name => "pg:frm:j_id61")
-  text_field(:zip_postal_code, :name => "pg:frm:j_id52")
-  text_field(:phone_number, :name => "pg:frm:j_id58")
-  #
-    button(:search_button, :value => "Search")
-    button(:new_account_button, :value => "New Account")
 
 
-  div(:recent_accounts_related_list, :class => "bPageBlock brandSecondaryBrd secondaryPalette")
-  #Subbu 8/12/2016 - Removed the duplicate element
-  # button(:new_account_button, :name => "new")
-  select_list(:recently_viewed_dropdown, :id => "hotlist_mode")
-
-  table(:account_table, :xpath => "//*[@class='bRelatedList']/div/div/div[2]/table")
-
-  #Subbu 08/12/2016 - Adding new element for another searcch button on same page
-  button(:candidate_search_button, :xpath => " //*[@id='pg:frm:j_id71:j_id72']/input[1]")
-
-  checkbox(:do_not_call_1,:xpath=>"//*[@id='pg:frm:resultBlock:j_id81:0:j_id94']/input")
-  label(:active_divisions_1,:xpath=>'html/body/div[1]/div[2]/table/tbody/tr/td/form/div[1]/div/div/div/div/div[2]/table/tbody/tr/td[13]/label')
-  label(:account_record_type_1,:xpath=>'html/body/div[1]/div[2]/table/tbody/tr/td/form/div[1]/div/div/div/div/div[2]/table/tbody/tr[1]/td[6]/label')
-  table(:account_list,:id=>'pg:frm:resultBlock:j_id81')
 
 
 
@@ -74,7 +82,7 @@ class SalesforceAccountsPage < WebPage
   # Purpose: return the validation value for the page title
 
   def self.page_title_validation_value
-   /Recent Accounts/
+   //
   end
 
   # Name: page_url_validation_value
